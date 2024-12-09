@@ -24,7 +24,7 @@ get_header(); ?>
                             </p>
                         </div>
                         <div class="meta">
-                            <?php echo get_the_author(); ?> &bullet; <?php echo get_the_date(); ?>
+                            Autor: <?php echo get_the_author(); ?> &bullet; <?php echo get_the_date(); ?>
                         </div>
                     </div>
                 <?php endwhile; ?>
