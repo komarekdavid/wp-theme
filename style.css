@@ -48,11 +48,12 @@ body {
 .post-title {
     font-size: 1.5em;
     margin: 10px 0;
+    
 }
 
 .post-title a {
     text-decoration: none;
-    color: #333;
+    color: #ff9a26;
 }
 
 .post-title a:hover {
@@ -75,6 +76,11 @@ body {
     display: inline-block;
     margin-right: 10px;
 }
+
+.post-author {
+    font-weight: bold;
+    color: #ff9a26;
+}   
 
 @media (max-width: 480px) {
     .post-card {
