@@ -1,3 +1,16 @@
+/*
+Theme Name: Komy
+Theme URI: http://example.com
+Author: David Komarek
+Author URI: http://example.com
+Description: Jednoduchá WordPress šablona.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: komy
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,3 +21,14 @@ html {
     margin-top: 0 !important;
 }
 
+.breadcrumbs {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: #0073aa;
+}
+.breadcrumbs span {
+    font-weight: bold;
+}
